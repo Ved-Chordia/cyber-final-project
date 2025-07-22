@@ -1,0 +1,19 @@
+[
+  {
+    "rule_name": "Block Telnet",
+    "protocol": "TCP",
+    "port": 23,
+    "action": "block"
+  },
+  {
+    "rule_name": "Allow HTTP",
+    "protocol": "TCP",
+    "port": 80,
+    "action": "allow"
+  },
+  {
+    "rule_name": "Block ICMP",
+    "protocol": "ICMP",
+    "action": "block"
+  }
+]
